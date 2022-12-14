@@ -1,0 +1,133 @@
+.class-list-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.class-list-wrapper {
+  width: 90%;
+  height: 80%;
+}
+
+.class-list-wrapper .heading {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-top: 1px solid rgba(56, 51, 51, 0.675);
+  border-bottom: 1px solid rgba(56, 51, 51, 0.675);
+  padding-right: 20px;
+}
+.class-list-wrapper .heading .left-content {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.class-list-wrapper .heading .middle-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.class-list-wrapper .heading .right-content {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.heading .left-content .serial-no {
+  width: 10%;
+}
+.heading .middle-content .duration {
+  width: 20%;
+  display: flex;
+}
+.heading .middle-content .date {
+  width: 40%;
+}
+.heading .middle-content .stars {
+  width: 40%;
+}
+/* .heading .right-content {
+  width: 10%;
+} */
+
+/* class list  */
+.class-list-wrapper .body {
+  height: 90%;
+  overflow-y: auto;
+}
+
+.class-list-wrapper .class-details {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(56, 51, 51, 0.317);
+}
+.class-list-wrapper .class-details .left-content {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.class-list-wrapper .class-details .middle-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.class-list-wrapper .class-details .right-content {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.class-details .left-content .serial-no {
+  /* padding-right: 20px; */
+  width: 10%;
+}
+.class-details .middle-content .duration {
+  width: 20%;
+  display: flex;
+}
+.class-details .middle-content .date {
+  width: 40%;
+}
+.class-details .middle-content .stars {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.class-details .middle-content .stars i {
+  font-size: 7px;
+  margin: 0;
+  padding: 2px 2px;
+  color: orange;
+}
+.class-details .right-content button {
+  height: 25px;
+  font-size: 0.6rem;
+}
+
+/* /// footer  */
+.class-list-wrapper .footer {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.class-list-wrapper .footer .right-content {
+  display: flex;
+  align-items: center;
+}
+.class-list-wrapper .footer .right-content button {
+  height: 25px;
+  font-size: 0.6rem;
+  margin: 2px;
+  background: gray;
+  color: white;
+}
+.class-list-wrapper .footer .right-content button:hover {
+  background: rgb(209, 36, 36);
+}

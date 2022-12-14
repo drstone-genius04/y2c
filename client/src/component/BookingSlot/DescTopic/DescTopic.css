@@ -1,0 +1,26 @@
+.desc-container {
+  padding: 5%;
+  font-size: 1.4rem;
+  height: 100%;
+  border-radius: 50px;
+  text-align: center;
+}
+.desc-container textarea {
+  height: 60%;
+}
+.form-control {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+.next-btn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+.next-btn .btn {
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 40%;
+}
