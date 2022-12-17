@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const TeacherClassHistoryRouter = require("./routes/TeacherClassHistoryRouter");
 const AvailableTeachersRouter = require("./routes/AvailableTeachersRouter");
+
 const App = express();
 
 App.use(bodyParser.urlencoded({ extended: false }));

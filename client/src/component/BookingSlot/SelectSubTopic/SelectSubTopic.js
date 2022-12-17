@@ -14,9 +14,10 @@ const SelectSubTopic = () => {
     setShowTeacherBox(true);
     const headers = {
       "Content-Type": "application/json",
+      
     };
     axios
-      .get("http://localhost:5000/api/available-teacher", headers)
+      .get("http://localhost:3000", headers)
       .then((res) => setAvailableTeachers(res.data))
       // .then((res) => console.log(res.data))
       .catch((err) => alert(err.message));
@@ -37,7 +38,7 @@ const SelectSubTopic = () => {
           Prev
         </button>
         <button onClick={showTutors} className="btn btn-success">
-          Show Tutors
+          JoIN MEETING ROOM
         </button>
       </div>
     </div>
